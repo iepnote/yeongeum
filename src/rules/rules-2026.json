@@ -1,0 +1,202 @@
+{
+  "year": 2026,
+  "_source": "은퇴설계앱_PRD_v4 §F-6/F-7, 투자원칙문서_v2 §9, nhis_검증케이스_v1.json rules_2026",
+  "tax": {
+    "privatePension": {
+      "annualLimit": 15000000,
+      "lowRateByAge": [
+        { "minAge": 80, "rate": 0.033 },
+        { "minAge": 70, "rate": 0.044 },
+        { "minAge": 0, "rate": 0.055 }
+      ],
+      "overLimitRate": 0.165
+    },
+    "financialIncome": { "comprehensiveThreshold": 20000000, "withholdingRate": 0.14 },
+    "comprehensive": {
+      "localSurtax": 0.1,
+      "basicPersonalDeduction": 1500000,
+      "brackets": [
+        { "upTo": 14000000, "rate": 0.06 },
+        { "upTo": 50000000, "rate": 0.15 },
+        { "upTo": 88000000, "rate": 0.24 },
+        { "upTo": 150000000, "rate": 0.35 },
+        { "upTo": 300000000, "rate": 0.38 },
+        { "upTo": 500000000, "rate": 0.4 },
+        { "upTo": 1000000000, "rate": 0.42 },
+        { "upTo": null, "rate": 0.45 }
+      ]
+    },
+    "pensionIncomeDeduction": {
+      "cap": 9000000,
+      "brackets": [
+        { "upTo": 3500000, "rate": 1 },
+        { "upTo": 7000000, "rate": 0.4 },
+        { "upTo": 14000000, "rate": 0.2 },
+        { "upTo": null, "rate": 0.1 }
+      ]
+    },
+    "rent": {
+      "_note": "주택임대 2,000만 이하 분리과세 근사: (수입-필요경비)×15.4%. 상가는 종합과세 대상이나 동일 형태 근사 — 과소추정 가능, 진단 리포트에서 경고 예정",
+      "housingExpenseRatio": 0.5,
+      "commercialExpenseRatio": 0.4,
+      "rate": 0.154
+    },
+    "otherIncome": { "expenseRatio": 0.6, "rate": 0.22 },
+    "workIncomeDeduction": {
+      "_note": "근로소득공제 (소득세법 §47) — 지급정지 소득월액 산정용 (총급여 → 근로소득금액)",
+      "brackets": [
+        { "upTo": 5000000, "rate": 0.7 },
+        { "upTo": 15000000, "rate": 0.4 },
+        { "upTo": 45000000, "rate": 0.15 },
+        { "upTo": 100000000, "rate": 0.05 },
+        { "upTo": null, "rate": 0.02 }
+      ]
+    }
+  },
+  "nhis": {
+    "_source": "2026 공식 고시 (수집 2026-08-07): 보험료율 7.19% 및 점수당 211.5원 = 시행령 제44조 <개정 2025.12.23>, 장기요양 13.14% = 복지부 2025.11.4 의결, 재산등급표 = 시행령 별표 4 <개정 2024.5.7> (법제처 원문 PDF·공단 페이지 대조 일치)",
+    "healthRate": 0.0719,
+    "ltcRateOfHealth": 0.1314,
+    "regional": {
+      "pensionIncomeRatio": 0.5,
+      "workIncomeRatio": 0.5,
+      "privatePensionIncluded": false,
+      "housingPensionIncluded": false,
+      "financialIncomeThreshold": 10000000,
+      "propertyBasicDeduction": 100000000,
+      "pointValueKRW": 211.5,
+      "_gradesNote": "재산등급표 60등급 — 기본공제(1억) 차감 후 금액을 '초과~이하' 구간에 대입. maxTaxBase null = 최종 등급",
+      "propertyGrades": [
+        { "grade": 1, "maxTaxBase": 4500000, "points": 22 },
+        { "grade": 2, "maxTaxBase": 9000000, "points": 44 },
+        { "grade": 3, "maxTaxBase": 13500000, "points": 66 },
+        { "grade": 4, "maxTaxBase": 18000000, "points": 97 },
+        { "grade": 5, "maxTaxBase": 22500000, "points": 122 },
+        { "grade": 6, "maxTaxBase": 27000000, "points": 146 },
+        { "grade": 7, "maxTaxBase": 31500000, "points": 171 },
+        { "grade": 8, "maxTaxBase": 36000000, "points": 195 },
+        { "grade": 9, "maxTaxBase": 40500000, "points": 219 },
+        { "grade": 10, "maxTaxBase": 45000000, "points": 244 },
+        { "grade": 11, "maxTaxBase": 50200000, "points": 268 },
+        { "grade": 12, "maxTaxBase": 55900000, "points": 294 },
+        { "grade": 13, "maxTaxBase": 62200000, "points": 320 },
+        { "grade": 14, "maxTaxBase": 69300000, "points": 344 },
+        { "grade": 15, "maxTaxBase": 77100000, "points": 365 },
+        { "grade": 16, "maxTaxBase": 85900000, "points": 386 },
+        { "grade": 17, "maxTaxBase": 95700000, "points": 412 },
+        { "grade": 18, "maxTaxBase": 107000000, "points": 439 },
+        { "grade": 19, "maxTaxBase": 119000000, "points": 465 },
+        { "grade": 20, "maxTaxBase": 133000000, "points": 490 },
+        { "grade": 21, "maxTaxBase": 148000000, "points": 516 },
+        { "grade": 22, "maxTaxBase": 164000000, "points": 535 },
+        { "grade": 23, "maxTaxBase": 183000000, "points": 559 },
+        { "grade": 24, "maxTaxBase": 204000000, "points": 586 },
+        { "grade": 25, "maxTaxBase": 227000000, "points": 611 },
+        { "grade": 26, "maxTaxBase": 253000000, "points": 637 },
+        { "grade": 27, "maxTaxBase": 281000000, "points": 659 },
+        { "grade": 28, "maxTaxBase": 313000000, "points": 681 },
+        { "grade": 29, "maxTaxBase": 349000000, "points": 706 },
+        { "grade": 30, "maxTaxBase": 388000000, "points": 731 },
+        { "grade": 31, "maxTaxBase": 432000000, "points": 757 },
+        { "grade": 32, "maxTaxBase": 481000000, "points": 785 },
+        { "grade": 33, "maxTaxBase": 536000000, "points": 812 },
+        { "grade": 34, "maxTaxBase": 597000000, "points": 841 },
+        { "grade": 35, "maxTaxBase": 665000000, "points": 881 },
+        { "grade": 36, "maxTaxBase": 740000000, "points": 921 },
+        { "grade": 37, "maxTaxBase": 824000000, "points": 961 },
+        { "grade": 38, "maxTaxBase": 918000000, "points": 1001 },
+        { "grade": 39, "maxTaxBase": 1030000000, "points": 1041 },
+        { "grade": 40, "maxTaxBase": 1140000000, "points": 1091 },
+        { "grade": 41, "maxTaxBase": 1270000000, "points": 1141 },
+        { "grade": 42, "maxTaxBase": 1420000000, "points": 1191 },
+        { "grade": 43, "maxTaxBase": 1580000000, "points": 1241 },
+        { "grade": 44, "maxTaxBase": 1760000000, "points": 1291 },
+        { "grade": 45, "maxTaxBase": 1960000000, "points": 1341 },
+        { "grade": 46, "maxTaxBase": 2180000000, "points": 1391 },
+        { "grade": 47, "maxTaxBase": 2420000000, "points": 1451 },
+        { "grade": 48, "maxTaxBase": 2700000000, "points": 1511 },
+        { "grade": 49, "maxTaxBase": 3000000000, "points": 1571 },
+        { "grade": 50, "maxTaxBase": 3300000000, "points": 1641 },
+        { "grade": 51, "maxTaxBase": 3630000000, "points": 1711 },
+        { "grade": 52, "maxTaxBase": 3993000000, "points": 1781 },
+        { "grade": 53, "maxTaxBase": 4392300000, "points": 1851 },
+        { "grade": 54, "maxTaxBase": 4831530000, "points": 1921 },
+        { "grade": 55, "maxTaxBase": 5314680000, "points": 1991 },
+        { "grade": 56, "maxTaxBase": 5846150000, "points": 2061 },
+        { "grade": 57, "maxTaxBase": 6430770000, "points": 2131 },
+        { "grade": 58, "maxTaxBase": 7073850000, "points": 2201 },
+        { "grade": 59, "maxTaxBase": 7781240000, "points": 2271 },
+        { "grade": 60, "maxTaxBase": null, "points": 2341 }
+      ]
+    },
+    "employee": {
+      "employeeShare": 0.5,
+      "propertyLevied": false,
+      "sideIncomeThreshold": 20000000,
+      "sideIncomePensionRatio": 0.5
+    },
+    "voluntaryContinuation": { "maxMonths": 36 },
+    "dependent": {
+      "incomeLimit": 20000000,
+      "pensionCountRatio": 1.0,
+      "propertyLimit": 540000000
+    }
+  },
+  "pensionOpenAge": { "publicPension": 65, "privatePensionEarliest": 55 },
+  "publicPensionNps": {
+    "_source": "국민연금 간이 추정용: 상수 1.2 = 소득대체율 40%(2028~) 기준, A값은 보건복지부 고시 (기본값 2025년 3,089,062원 — 연 1회 확인·수정 필요, UI에서 편집 가능). 개시연령 = 출생연도별 부칙",
+    "aValueMonthly": 3089062,
+    "replacementConstant": 1.2,
+    "openAgeByBirthYear": [
+      { "birthYearFrom": 1969, "age": 65 },
+      { "birthYearFrom": 1965, "age": 64 },
+      { "birthYearFrom": 1961, "age": 63 },
+      { "birthYearFrom": 1957, "age": 62 },
+      { "birthYearFrom": 0, "age": 61 }
+    ]
+  },
+  "publicPensionTeacher": {
+    "_source": "공무원연금법: 기여율 9%(법 제67조), 산입 상한 36년(2016~, 공단), 개시연령 부칙(법률 13387호) 제7·8조. 지급률은 연도별 1.878→1.7% 단계 인하 중(2026년 1.736%)이나 1.7% 고정 — 보수적 하한, 소득재분배 차등 미반영과 상쇄. 보정 기능이 오차 흡수",
+    "accrualRatePerYear": 0.017,
+    "contributionRate": 0.09,
+    "serviceYearsCap": 36,
+    "openAgeByRetireYear": [
+      { "retireYearFrom": 2033, "age": 65 },
+      { "retireYearFrom": 2030, "age": 64 },
+      { "retireYearFrom": 2027, "age": 63 },
+      { "retireYearFrom": 2024, "age": 62 },
+      { "retireYearFrom": 2022, "age": 61 },
+      { "retireYearFrom": 0, "age": 60 }
+    ]
+  },
+  "pensionSuspension": {
+    "_source": "공무원연금법 제50조③ 구간표(누진 한계율 30~70%, 상한 연금월액 1/2), 시행령 제47조. 2026 평균연금월액 280만원(공단 공시, 원 단위 고시 미확인 — 280만 사용). 소득월액은 근로소득공제·필요경비 차감 후 기준. 수집 2026-08-08",
+    "avgPensionMonthly": 2800000,
+    "brackets": [
+      { "upTo": 500000, "rate": 0.3 },
+      { "upTo": 1000000, "rate": 0.4 },
+      { "upTo": 1500000, "rate": 0.5 },
+      { "upTo": 2000000, "rate": 0.6 },
+      { "upTo": null, "rate": 0.7 }
+    ],
+    "maxRatio": 0.5
+  },
+  "mutualAid": {
+    "_note": "교직원공제회 분할급여율 기본값 — 변동금리(공제회 고시)이므로 UI에서 수정 가능. 확인처: 한국교직원공제회 장기저축급여 분할급여금 안내",
+    "defaultRatePct": 3.8
+  },
+  "housingPension": {
+    "_source": "주택연금 백문백답(2026.6월판) p.75 [연령별 월지급금 Table] — 일반주택 종신지급 정액형, '26.3월 기준, 단위 천원. 부부는 연소자 연령 기준. 매년 재산출되어 신규 가입분부터 조정 — 실제 가입 전 공사(hf.go.kr) 조회 필수",
+    "ages": [55, 60, 65, 70, 75, 80],
+    "priceEok": [1, 3, 5, 7, 9, 12],
+    "monthlyThousandWon": [
+      [156, 468, 780, 1092, 1404, 1872],
+      [210, 632, 1053, 1475, 1896, 2528],
+      [252, 758, 1264, 1770, 2276, 3035],
+      [307, 923, 1539, 2155, 2770, 3414],
+      [381, 1143, 1906, 2669, 3431, 3666],
+      [483, 1449, 2416, 3382, 4060, 4060]
+    ]
+  },
+  "account": { "irpRiskLimit": 0.7, "trfEquityFactor": 0.3 }
+}

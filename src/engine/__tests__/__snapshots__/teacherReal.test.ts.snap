@@ -1,0 +1,13 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`teacher — 2026 실제 봉급표 (별표 11) > 결과 스냅샷 (앨리스 기본값) 1`] = `
+{
+  "avgIncomeMonthly": 5606752,
+  "contributionMonthly": 501722,
+  "currentBaseSalary": 4129400,
+  "currentIncomeMonthly": 5574690,
+  "openAge": 65,
+  "pensionMonthly": 2335212,
+  "serviceYears": 24.5,
+}
+`;

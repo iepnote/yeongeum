@@ -1,0 +1,482 @@
+{
+  "_meta": {
+    "version": "v1",
+    "created": "2026-08-07",
+    "purpose": "은퇴설계앱 M2 건강보험료 엔진 vitest 픽스처. 기대값은 아래 rules 파라미터로부터 결정론적으로 계산됨.",
+    "warning": "재산등급표는 공단 고시 전체(60등급)로 교체 완료 (2026-08-07). 룰 개정 시 rules-2026.json 수정 → scripts/regen-expected.ts 재실행.",
+    "disclaimer": "실제 고지액과 다를 수 있음. 정보 제공용.",
+    "regenerated": "2026-08-07 scripts/regen-expected.ts — rules-2026.json 기준 재계산"
+  },
+  "rules_2026": {
+    "_source": "2026 공식 고시 (수집 2026-08-07): 보험료율 7.19% 및 점수당 211.5원 = 시행령 제44조 <개정 2025.12.23>, 장기요양 13.14% = 복지부 2025.11.4 의결, 재산등급표 = 시행령 별표 4 <개정 2024.5.7> (법제처 원문 PDF·공단 페이지 대조 일치)",
+    "healthRate": 0.0719,
+    "ltcRateOfHealth": 0.1314,
+    "regional": {
+      "pensionIncomeRatio": 0.5,
+      "workIncomeRatio": 0.5,
+      "privatePensionIncluded": false,
+      "housingPensionIncluded": false,
+      "financialIncomeThreshold": 10000000,
+      "propertyBasicDeduction": 100000000,
+      "pointValueKRW": 211.5,
+      "_gradesNote": "재산등급표 60등급 — 기본공제(1억) 차감 후 금액을 '초과~이하' 구간에 대입. maxTaxBase null = 최종 등급",
+      "propertyGrades": [
+        {
+          "grade": 1,
+          "maxTaxBase": 4500000,
+          "points": 22
+        },
+        {
+          "grade": 2,
+          "maxTaxBase": 9000000,
+          "points": 44
+        },
+        {
+          "grade": 3,
+          "maxTaxBase": 13500000,
+          "points": 66
+        },
+        {
+          "grade": 4,
+          "maxTaxBase": 18000000,
+          "points": 97
+        },
+        {
+          "grade": 5,
+          "maxTaxBase": 22500000,
+          "points": 122
+        },
+        {
+          "grade": 6,
+          "maxTaxBase": 27000000,
+          "points": 146
+        },
+        {
+          "grade": 7,
+          "maxTaxBase": 31500000,
+          "points": 171
+        },
+        {
+          "grade": 8,
+          "maxTaxBase": 36000000,
+          "points": 195
+        },
+        {
+          "grade": 9,
+          "maxTaxBase": 40500000,
+          "points": 219
+        },
+        {
+          "grade": 10,
+          "maxTaxBase": 45000000,
+          "points": 244
+        },
+        {
+          "grade": 11,
+          "maxTaxBase": 50200000,
+          "points": 268
+        },
+        {
+          "grade": 12,
+          "maxTaxBase": 55900000,
+          "points": 294
+        },
+        {
+          "grade": 13,
+          "maxTaxBase": 62200000,
+          "points": 320
+        },
+        {
+          "grade": 14,
+          "maxTaxBase": 69300000,
+          "points": 344
+        },
+        {
+          "grade": 15,
+          "maxTaxBase": 77100000,
+          "points": 365
+        },
+        {
+          "grade": 16,
+          "maxTaxBase": 85900000,
+          "points": 386
+        },
+        {
+          "grade": 17,
+          "maxTaxBase": 95700000,
+          "points": 412
+        },
+        {
+          "grade": 18,
+          "maxTaxBase": 107000000,
+          "points": 439
+        },
+        {
+          "grade": 19,
+          "maxTaxBase": 119000000,
+          "points": 465
+        },
+        {
+          "grade": 20,
+          "maxTaxBase": 133000000,
+          "points": 490
+        },
+        {
+          "grade": 21,
+          "maxTaxBase": 148000000,
+          "points": 516
+        },
+        {
+          "grade": 22,
+          "maxTaxBase": 164000000,
+          "points": 535
+        },
+        {
+          "grade": 23,
+          "maxTaxBase": 183000000,
+          "points": 559
+        },
+        {
+          "grade": 24,
+          "maxTaxBase": 204000000,
+          "points": 586
+        },
+        {
+          "grade": 25,
+          "maxTaxBase": 227000000,
+          "points": 611
+        },
+        {
+          "grade": 26,
+          "maxTaxBase": 253000000,
+          "points": 637
+        },
+        {
+          "grade": 27,
+          "maxTaxBase": 281000000,
+          "points": 659
+        },
+        {
+          "grade": 28,
+          "maxTaxBase": 313000000,
+          "points": 681
+        },
+        {
+          "grade": 29,
+          "maxTaxBase": 349000000,
+          "points": 706
+        },
+        {
+          "grade": 30,
+          "maxTaxBase": 388000000,
+          "points": 731
+        },
+        {
+          "grade": 31,
+          "maxTaxBase": 432000000,
+          "points": 757
+        },
+        {
+          "grade": 32,
+          "maxTaxBase": 481000000,
+          "points": 785
+        },
+        {
+          "grade": 33,
+          "maxTaxBase": 536000000,
+          "points": 812
+        },
+        {
+          "grade": 34,
+          "maxTaxBase": 597000000,
+          "points": 841
+        },
+        {
+          "grade": 35,
+          "maxTaxBase": 665000000,
+          "points": 881
+        },
+        {
+          "grade": 36,
+          "maxTaxBase": 740000000,
+          "points": 921
+        },
+        {
+          "grade": 37,
+          "maxTaxBase": 824000000,
+          "points": 961
+        },
+        {
+          "grade": 38,
+          "maxTaxBase": 918000000,
+          "points": 1001
+        },
+        {
+          "grade": 39,
+          "maxTaxBase": 1030000000,
+          "points": 1041
+        },
+        {
+          "grade": 40,
+          "maxTaxBase": 1140000000,
+          "points": 1091
+        },
+        {
+          "grade": 41,
+          "maxTaxBase": 1270000000,
+          "points": 1141
+        },
+        {
+          "grade": 42,
+          "maxTaxBase": 1420000000,
+          "points": 1191
+        },
+        {
+          "grade": 43,
+          "maxTaxBase": 1580000000,
+          "points": 1241
+        },
+        {
+          "grade": 44,
+          "maxTaxBase": 1760000000,
+          "points": 1291
+        },
+        {
+          "grade": 45,
+          "maxTaxBase": 1960000000,
+          "points": 1341
+        },
+        {
+          "grade": 46,
+          "maxTaxBase": 2180000000,
+          "points": 1391
+        },
+        {
+          "grade": 47,
+          "maxTaxBase": 2420000000,
+          "points": 1451
+        },
+        {
+          "grade": 48,
+          "maxTaxBase": 2700000000,
+          "points": 1511
+        },
+        {
+          "grade": 49,
+          "maxTaxBase": 3000000000,
+          "points": 1571
+        },
+        {
+          "grade": 50,
+          "maxTaxBase": 3300000000,
+          "points": 1641
+        },
+        {
+          "grade": 51,
+          "maxTaxBase": 3630000000,
+          "points": 1711
+        },
+        {
+          "grade": 52,
+          "maxTaxBase": 3993000000,
+          "points": 1781
+        },
+        {
+          "grade": 53,
+          "maxTaxBase": 4392300000,
+          "points": 1851
+        },
+        {
+          "grade": 54,
+          "maxTaxBase": 4831530000,
+          "points": 1921
+        },
+        {
+          "grade": 55,
+          "maxTaxBase": 5314680000,
+          "points": 1991
+        },
+        {
+          "grade": 56,
+          "maxTaxBase": 5846150000,
+          "points": 2061
+        },
+        {
+          "grade": 57,
+          "maxTaxBase": 6430770000,
+          "points": 2131
+        },
+        {
+          "grade": 58,
+          "maxTaxBase": 7073850000,
+          "points": 2201
+        },
+        {
+          "grade": 59,
+          "maxTaxBase": 7781240000,
+          "points": 2271
+        },
+        {
+          "grade": 60,
+          "maxTaxBase": null,
+          "points": 2341
+        }
+      ]
+    },
+    "employee": {
+      "employeeShare": 0.5,
+      "propertyLevied": false,
+      "sideIncomeThreshold": 20000000,
+      "sideIncomePensionRatio": 0.5
+    },
+    "voluntaryContinuation": {
+      "maxMonths": 36
+    },
+    "dependent": {
+      "incomeLimit": 20000000,
+      "pensionCountRatio": 1,
+      "propertyLimit": 540000000
+    }
+  },
+  "cases": [
+    {
+      "id": "C1",
+      "name": "Alice 2038 지역가입자 기본 케이스",
+      "input": {
+        "type": "regional",
+        "publicPensionAnnual": 30810000,
+        "privatePensionAnnual": 15000000,
+        "housingPensionAnnual": 20160000,
+        "financialIncomeAnnual": 0,
+        "propertyTaxBase": 360000000,
+        "propertyNote": "공시가 8억 × 1주택 공정시장가액비율 45% = 3.6억"
+      },
+      "expected": {
+        "recognizedIncomeAnnual": 15405000,
+        "incomePremiumMonthly": 92302,
+        "propertyAfterDeduction": 260000000,
+        "propertyPoints": 659,
+        "propertyPremiumMonthly": 139379,
+        "healthMonthly": 231681,
+        "ltcMonthly": 30443,
+        "totalMonthly": 262124,
+        "assertAlso": [
+          "사적연금·주택연금은 recognizedIncome에 0원 기여"
+        ]
+      }
+    },
+    {
+      "id": "C2",
+      "name": "직장가입자 (월 보수 100만, 파트타임 재취업)",
+      "input": {
+        "type": "employee",
+        "monthlySalary": 1000000,
+        "publicPensionAnnual": 30810000,
+        "propertyTaxBase": 360000000
+      },
+      "expected": {
+        "payrollHealthMonthly": 35950,
+        "payrollLtcMonthly": 4724,
+        "sideIncomeRecognized": 15405000,
+        "sideIncomePremiumMonthly": 0,
+        "sideIncomeReason": "반영소득 1,540.5만 ≤ 문턱 2,000만",
+        "propertyPremiumMonthly": 0,
+        "totalMonthly": 40674,
+        "assertAlso": [
+          "재산 3.6억이 있어도 직장가입자는 재산분 0 — C1 대비 월 -215,766원"
+        ]
+      }
+    },
+    {
+      "id": "C3",
+      "name": "임의계속가입 (퇴직 전 평균 보수월액 550만)",
+      "input": {
+        "type": "voluntary",
+        "avgSalaryLast12m": 5500000
+      },
+      "expected": {
+        "healthMonthly": 197725,
+        "ltcMonthly": 25981,
+        "totalMonthly": 223706,
+        "assertAlso": [
+          "C1(255,807원)보다 낮으므로 앱은 '임의계속 유리' 배지 표시",
+          "신청기한 경고 로직 필수"
+        ]
+      }
+    },
+    {
+      "id": "C4",
+      "name": "피부양자 판정 — 공적연금 2,436만",
+      "input": {
+        "type": "dependentCheck",
+        "publicPensionAnnual": 24360000,
+        "privatePensionAnnual": 15000000,
+        "propertyTaxBase": 360000000
+      },
+      "expected": {
+        "dependentIncomeCounted": 24360000,
+        "eligible": false,
+        "reason": "연금소득(판정 시 100% 반영) 2,436만 > 2,000만",
+        "assertAlso": [
+          "사적연금 1,500만은 판정 소득에 미포함",
+          "판정(100%)과 부과(50%)의 연금 반영률 차이를 별도 함수로 구현"
+        ]
+      }
+    },
+    {
+      "id": "C5a",
+      "name": "금융소득 문턱 아래 (연 990만)",
+      "input": {
+        "type": "regional",
+        "publicPensionAnnual": 30810000,
+        "financialIncomeAnnual": 9900000,
+        "propertyTaxBase": 360000000
+      },
+      "expected": {
+        "financialIncomeCounted": 0,
+        "totalMonthly": 262124,
+        "note": "C1과 동일해야 함"
+      }
+    },
+    {
+      "id": "C5b",
+      "name": "금융소득 문턱 초과 (연 1,010만) — 전액 반영 절벽",
+      "input": {
+        "type": "regional",
+        "publicPensionAnnual": 30810000,
+        "financialIncomeAnnual": 10100000,
+        "propertyTaxBase": 360000000
+      },
+      "expected": {
+        "financialIncomeCounted": 10100000,
+        "recognizedIncomeAnnual": 25505000,
+        "incomePremiumMonthly": 152817,
+        "healthMonthly": 292196,
+        "ltcMonthly": 38395,
+        "totalMonthly": 330591,
+        "assertAlso": [
+          "990만 대비 배당 +20만에 보험료 연 +809,000원 — 리포트에 '문턱 절벽' 경고 트리거"
+        ]
+      }
+    },
+    {
+      "id": "C6",
+      "name": "사적연금 대량 수령 시 미부과 확인",
+      "input": {
+        "type": "regional",
+        "publicPensionAnnual": 30810000,
+        "privatePensionAnnual": 30000000,
+        "propertyTaxBase": 360000000
+      },
+      "expected": {
+        "totalMonthly": 262124,
+        "note": "C1과 동일 — 사적연금 3,000만을 받아도 건보료 불변 (현행 규칙)"
+      }
+    }
+  ],
+  "outOfScope_M2": [
+    "65세 이후 공무원연금 지급정지(소득심사)와의 결합 — M4 시나리오 매니저에서 처리",
+    "피부양자 재산 5.4억~9억 & 소득 1,000만 이하 예외 구간",
+    "지역가입자 최저보험료, 감면(섬·벽지 등)"
+  ]
+}

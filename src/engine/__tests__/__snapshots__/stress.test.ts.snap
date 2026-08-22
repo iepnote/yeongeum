@@ -1,0 +1,21 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`applyStress — 스트레스 테스트 (대시보드 v4 이식) > 시나리오 3종 스냅샷 1`] = `
+[
+  {
+    "label": "2022년형 금리 급등",
+    "loss": -617,
+    "shockPct": -10.5,
+  },
+  {
+    "label": "2008년형 금융위기",
+    "loss": -1169,
+    "shockPct": -19.9,
+  },
+  {
+    "label": "2020년형 팬데믹 급락(저점)",
+    "loss": -992,
+    "shockPct": -16.9,
+  },
+]
+`;

@@ -1,0 +1,1056 @@
+{
+  "year": 2026,
+  "source": "공무원보수규정 [별표 3] 일반직공무원과 일반직에 준하는 특정직 및 별정직 공무원 등의 봉급표 (인사혁신처, 2026)",
+  "ranks": {
+    "1": [
+      {
+        "grade": 1,
+        "monthly": 4656100
+      },
+      {
+        "grade": 2,
+        "monthly": 4819300
+      },
+      {
+        "grade": 3,
+        "monthly": 4986600
+      },
+      {
+        "grade": 4,
+        "monthly": 5157700
+      },
+      {
+        "grade": 5,
+        "monthly": 5333000
+      },
+      {
+        "grade": 6,
+        "monthly": 5510400
+      },
+      {
+        "grade": 7,
+        "monthly": 5690400
+      },
+      {
+        "grade": 8,
+        "monthly": 5871900
+      },
+      {
+        "grade": 9,
+        "monthly": 6056100
+      },
+      {
+        "grade": 10,
+        "monthly": 6241300
+      },
+      {
+        "grade": 11,
+        "monthly": 6426000
+      },
+      {
+        "grade": 12,
+        "monthly": 6617100
+      },
+      {
+        "grade": 13,
+        "monthly": 6809200
+      },
+      {
+        "grade": 14,
+        "monthly": 7001800
+      },
+      {
+        "grade": 15,
+        "monthly": 7170100
+      },
+      {
+        "grade": 16,
+        "monthly": 7319600
+      },
+      {
+        "grade": 17,
+        "monthly": 7452100
+      },
+      {
+        "grade": 18,
+        "monthly": 7570100
+      },
+      {
+        "grade": 19,
+        "monthly": 7675800
+      },
+      {
+        "grade": 20,
+        "monthly": 7770600
+      },
+      {
+        "grade": 21,
+        "monthly": 7857800
+      },
+      {
+        "grade": 22,
+        "monthly": 7935600
+      },
+      {
+        "grade": 23,
+        "monthly": 8001400
+      }
+    ],
+    "2": [
+      {
+        "grade": 1,
+        "monthly": 4191600
+      },
+      {
+        "grade": 2,
+        "monthly": 4347100
+      },
+      {
+        "grade": 3,
+        "monthly": 4504700
+      },
+      {
+        "grade": 4,
+        "monthly": 4663700
+      },
+      {
+        "grade": 5,
+        "monthly": 4825100
+      },
+      {
+        "grade": 6,
+        "monthly": 4986500
+      },
+      {
+        "grade": 7,
+        "monthly": 5150200
+      },
+      {
+        "grade": 8,
+        "monthly": 5313600
+      },
+      {
+        "grade": 9,
+        "monthly": 5478200
+      },
+      {
+        "grade": 10,
+        "monthly": 5642500
+      },
+      {
+        "grade": 11,
+        "monthly": 5807700
+      },
+      {
+        "grade": 12,
+        "monthly": 5978600
+      },
+      {
+        "grade": 13,
+        "monthly": 6150500
+      },
+      {
+        "grade": 14,
+        "monthly": 6306200
+      },
+      {
+        "grade": 15,
+        "monthly": 6449600
+      },
+      {
+        "grade": 16,
+        "monthly": 6581000
+      },
+      {
+        "grade": 17,
+        "monthly": 6702000
+      },
+      {
+        "grade": 18,
+        "monthly": 6812700
+      },
+      {
+        "grade": 19,
+        "monthly": 6914900
+      },
+      {
+        "grade": 20,
+        "monthly": 7008100
+      },
+      {
+        "grade": 21,
+        "monthly": 7093400
+      },
+      {
+        "grade": 22,
+        "monthly": 7171600
+      },
+      {
+        "grade": 23,
+        "monthly": 7243100
+      },
+      {
+        "grade": 24,
+        "monthly": 7301700
+      },
+      {
+        "grade": 25,
+        "monthly": 7357600
+      }
+    ],
+    "3": [
+      {
+        "grade": 1,
+        "monthly": 3781700
+      },
+      {
+        "grade": 2,
+        "monthly": 3921600
+      },
+      {
+        "grade": 3,
+        "monthly": 4065700
+      },
+      {
+        "grade": 4,
+        "monthly": 4210800
+      },
+      {
+        "grade": 5,
+        "monthly": 4358300
+      },
+      {
+        "grade": 6,
+        "monthly": 4507200
+      },
+      {
+        "grade": 7,
+        "monthly": 4658000
+      },
+      {
+        "grade": 8,
+        "monthly": 4809000
+      },
+      {
+        "grade": 9,
+        "monthly": 4961400
+      },
+      {
+        "grade": 10,
+        "monthly": 5113600
+      },
+      {
+        "grade": 11,
+        "monthly": 5266200
+      },
+      {
+        "grade": 12,
+        "monthly": 5424200
+      },
+      {
+        "grade": 13,
+        "monthly": 5571200
+      },
+      {
+        "grade": 14,
+        "monthly": 5707600
+      },
+      {
+        "grade": 15,
+        "monthly": 5833400
+      },
+      {
+        "grade": 16,
+        "monthly": 5950500
+      },
+      {
+        "grade": 17,
+        "monthly": 6059400
+      },
+      {
+        "grade": 18,
+        "monthly": 6160700
+      },
+      {
+        "grade": 19,
+        "monthly": 6254300
+      },
+      {
+        "grade": 20,
+        "monthly": 6342100
+      },
+      {
+        "grade": 21,
+        "monthly": 6423300
+      },
+      {
+        "grade": 22,
+        "monthly": 6498500
+      },
+      {
+        "grade": 23,
+        "monthly": 6567800
+      },
+      {
+        "grade": 24,
+        "monthly": 6632800
+      },
+      {
+        "grade": 25,
+        "monthly": 6685800
+      },
+      {
+        "grade": 26,
+        "monthly": 6736700
+      },
+      {
+        "grade": 27,
+        "monthly": 6783800
+      }
+    ],
+    "4": [
+      {
+        "grade": 1,
+        "monthly": 3241200
+      },
+      {
+        "grade": 2,
+        "monthly": 3373500
+      },
+      {
+        "grade": 3,
+        "monthly": 3508000
+      },
+      {
+        "grade": 4,
+        "monthly": 3645700
+      },
+      {
+        "grade": 5,
+        "monthly": 3785200
+      },
+      {
+        "grade": 6,
+        "monthly": 3926200
+      },
+      {
+        "grade": 7,
+        "monthly": 4068300
+      },
+      {
+        "grade": 8,
+        "monthly": 4211100
+      },
+      {
+        "grade": 9,
+        "monthly": 4354500
+      },
+      {
+        "grade": 10,
+        "monthly": 4497700
+      },
+      {
+        "grade": 11,
+        "monthly": 4642100
+      },
+      {
+        "grade": 12,
+        "monthly": 4778100
+      },
+      {
+        "grade": 13,
+        "monthly": 4905100
+      },
+      {
+        "grade": 14,
+        "monthly": 5023800
+      },
+      {
+        "grade": 15,
+        "monthly": 5135500
+      },
+      {
+        "grade": 16,
+        "monthly": 5240900
+      },
+      {
+        "grade": 17,
+        "monthly": 5338700
+      },
+      {
+        "grade": 18,
+        "monthly": 5430100
+      },
+      {
+        "grade": 19,
+        "monthly": 5515500
+      },
+      {
+        "grade": 20,
+        "monthly": 5595300
+      },
+      {
+        "grade": 21,
+        "monthly": 5669800
+      },
+      {
+        "grade": 22,
+        "monthly": 5739700
+      },
+      {
+        "grade": 23,
+        "monthly": 5805400
+      },
+      {
+        "grade": 24,
+        "monthly": 5867300
+      },
+      {
+        "grade": 25,
+        "monthly": 5923800
+      },
+      {
+        "grade": 26,
+        "monthly": 5971800
+      },
+      {
+        "grade": 27,
+        "monthly": 6015900
+      },
+      {
+        "grade": 28,
+        "monthly": 6058300
+      }
+    ],
+    "5": [
+      {
+        "grade": 1,
+        "monthly": 2896400
+      },
+      {
+        "grade": 2,
+        "monthly": 3013400
+      },
+      {
+        "grade": 3,
+        "monthly": 3135000
+      },
+      {
+        "grade": 4,
+        "monthly": 3261300
+      },
+      {
+        "grade": 5,
+        "monthly": 3390900
+      },
+      {
+        "grade": 6,
+        "monthly": 3523000
+      },
+      {
+        "grade": 7,
+        "monthly": 3657300
+      },
+      {
+        "grade": 8,
+        "monthly": 3793200
+      },
+      {
+        "grade": 9,
+        "monthly": 3929600
+      },
+      {
+        "grade": 10,
+        "monthly": 4066800
+      },
+      {
+        "grade": 11,
+        "monthly": 4195300
+      },
+      {
+        "grade": 12,
+        "monthly": 4319000
+      },
+      {
+        "grade": 13,
+        "monthly": 4436400
+      },
+      {
+        "grade": 14,
+        "monthly": 4545900
+      },
+      {
+        "grade": 15,
+        "monthly": 4649400
+      },
+      {
+        "grade": 16,
+        "monthly": 4746800
+      },
+      {
+        "grade": 17,
+        "monthly": 4838400
+      },
+      {
+        "grade": 18,
+        "monthly": 4924800
+      },
+      {
+        "grade": 19,
+        "monthly": 5006300
+      },
+      {
+        "grade": 20,
+        "monthly": 5082700
+      },
+      {
+        "grade": 21,
+        "monthly": 5154500
+      },
+      {
+        "grade": 22,
+        "monthly": 5222000
+      },
+      {
+        "grade": 23,
+        "monthly": 5285600
+      },
+      {
+        "grade": 24,
+        "monthly": 5345200
+      },
+      {
+        "grade": 25,
+        "monthly": 5401500
+      },
+      {
+        "grade": 26,
+        "monthly": 5454500
+      },
+      {
+        "grade": 27,
+        "monthly": 5498400
+      },
+      {
+        "grade": 28,
+        "monthly": 5540700
+      },
+      {
+        "grade": 29,
+        "monthly": 5579500
+      },
+      {
+        "grade": 30,
+        "monthly": 5617200
+      }
+    ],
+    "6": [
+      {
+        "grade": 1,
+        "monthly": 2389500
+      },
+      {
+        "grade": 2,
+        "monthly": 2500700
+      },
+      {
+        "grade": 3,
+        "monthly": 2615200
+      },
+      {
+        "grade": 4,
+        "monthly": 2732400
+      },
+      {
+        "grade": 5,
+        "monthly": 2853100
+      },
+      {
+        "grade": 6,
+        "monthly": 2977100
+      },
+      {
+        "grade": 7,
+        "monthly": 3101500
+      },
+      {
+        "grade": 8,
+        "monthly": 3226200
+      },
+      {
+        "grade": 9,
+        "monthly": 3351300
+      },
+      {
+        "grade": 10,
+        "monthly": 3468700
+      },
+      {
+        "grade": 11,
+        "monthly": 3580000
+      },
+      {
+        "grade": 12,
+        "monthly": 3689600
+      },
+      {
+        "grade": 13,
+        "monthly": 3792700
+      },
+      {
+        "grade": 14,
+        "monthly": 3890000
+      },
+      {
+        "grade": 15,
+        "monthly": 3983600
+      },
+      {
+        "grade": 16,
+        "monthly": 4071300
+      },
+      {
+        "grade": 17,
+        "monthly": 4154900
+      },
+      {
+        "grade": 18,
+        "monthly": 4234100
+      },
+      {
+        "grade": 19,
+        "monthly": 4309100
+      },
+      {
+        "grade": 20,
+        "monthly": 4379600
+      },
+      {
+        "grade": 21,
+        "monthly": 4447600
+      },
+      {
+        "grade": 22,
+        "monthly": 4511500
+      },
+      {
+        "grade": 23,
+        "monthly": 4571300
+      },
+      {
+        "grade": 24,
+        "monthly": 4628500
+      },
+      {
+        "grade": 25,
+        "monthly": 4682800
+      },
+      {
+        "grade": 26,
+        "monthly": 4734100
+      },
+      {
+        "grade": 27,
+        "monthly": 4782800
+      },
+      {
+        "grade": 28,
+        "monthly": 4823700
+      },
+      {
+        "grade": 29,
+        "monthly": 4861900
+      },
+      {
+        "grade": 30,
+        "monthly": 4899800
+      },
+      {
+        "grade": 31,
+        "monthly": 4934800
+      },
+      {
+        "grade": 32,
+        "monthly": 4967800
+      }
+    ],
+    "7": [
+      {
+        "grade": 1,
+        "monthly": 2317100
+      },
+      {
+        "grade": 2,
+        "monthly": 2367900
+      },
+      {
+        "grade": 3,
+        "monthly": 2423800
+      },
+      {
+        "grade": 4,
+        "monthly": 2485200
+      },
+      {
+        "grade": 5,
+        "monthly": 2567100
+      },
+      {
+        "grade": 6,
+        "monthly": 2682600
+      },
+      {
+        "grade": 7,
+        "monthly": 2798700
+      },
+      {
+        "grade": 8,
+        "monthly": 2915800
+      },
+      {
+        "grade": 9,
+        "monthly": 3027100
+      },
+      {
+        "grade": 10,
+        "monthly": 3133300
+      },
+      {
+        "grade": 11,
+        "monthly": 3233400
+      },
+      {
+        "grade": 12,
+        "monthly": 3331900
+      },
+      {
+        "grade": 13,
+        "monthly": 3425300
+      },
+      {
+        "grade": 14,
+        "monthly": 3514500
+      },
+      {
+        "grade": 15,
+        "monthly": 3599900
+      },
+      {
+        "grade": 16,
+        "monthly": 3680600
+      },
+      {
+        "grade": 17,
+        "monthly": 3758100
+      },
+      {
+        "grade": 18,
+        "monthly": 3832100
+      },
+      {
+        "grade": 19,
+        "monthly": 3902000
+      },
+      {
+        "grade": 20,
+        "monthly": 3968400
+      },
+      {
+        "grade": 21,
+        "monthly": 4031800
+      },
+      {
+        "grade": 22,
+        "monthly": 4091600
+      },
+      {
+        "grade": 23,
+        "monthly": 4149600
+      },
+      {
+        "grade": 24,
+        "monthly": 4204500
+      },
+      {
+        "grade": 25,
+        "monthly": 4256500
+      },
+      {
+        "grade": 26,
+        "monthly": 4306500
+      },
+      {
+        "grade": 27,
+        "monthly": 4348700
+      },
+      {
+        "grade": 28,
+        "monthly": 4388000
+      },
+      {
+        "grade": 29,
+        "monthly": 4426100
+      },
+      {
+        "grade": 30,
+        "monthly": 4462400
+      },
+      {
+        "grade": 31,
+        "monthly": 4496500
+      }
+    ],
+    "8": [
+      {
+        "grade": 1,
+        "monthly": 2162100
+      },
+      {
+        "grade": 2,
+        "monthly": 2195700
+      },
+      {
+        "grade": 3,
+        "monthly": 2233800
+      },
+      {
+        "grade": 4,
+        "monthly": 2276600
+      },
+      {
+        "grade": 5,
+        "monthly": 2331700
+      },
+      {
+        "grade": 6,
+        "monthly": 2412900
+      },
+      {
+        "grade": 7,
+        "monthly": 2519600
+      },
+      {
+        "grade": 8,
+        "monthly": 2622400
+      },
+      {
+        "grade": 9,
+        "monthly": 2720300
+      },
+      {
+        "grade": 10,
+        "monthly": 2813000
+      },
+      {
+        "grade": 11,
+        "monthly": 2902700
+      },
+      {
+        "grade": 12,
+        "monthly": 2990300
+      },
+      {
+        "grade": 13,
+        "monthly": 3074500
+      },
+      {
+        "grade": 14,
+        "monthly": 3155100
+      },
+      {
+        "grade": 15,
+        "monthly": 3232400
+      },
+      {
+        "grade": 16,
+        "monthly": 3307100
+      },
+      {
+        "grade": 17,
+        "monthly": 3376800
+      },
+      {
+        "grade": 18,
+        "monthly": 3444300
+      },
+      {
+        "grade": 19,
+        "monthly": 3509300
+      },
+      {
+        "grade": 20,
+        "monthly": 3571100
+      },
+      {
+        "grade": 21,
+        "monthly": 3630200
+      },
+      {
+        "grade": 22,
+        "monthly": 3686900
+      },
+      {
+        "grade": 23,
+        "monthly": 3740800
+      },
+      {
+        "grade": 24,
+        "monthly": 3792900
+      },
+      {
+        "grade": 25,
+        "monthly": 3842300
+      },
+      {
+        "grade": 26,
+        "monthly": 3890300
+      },
+      {
+        "grade": 27,
+        "monthly": 3930200
+      },
+      {
+        "grade": 28,
+        "monthly": 3968700
+      },
+      {
+        "grade": 29,
+        "monthly": 4005100
+      },
+      {
+        "grade": 30,
+        "monthly": 4040300
+      },
+      {
+        "grade": 31,
+        "monthly": 4074600
+      }
+    ],
+    "9": [
+      {
+        "grade": 1,
+        "monthly": 2133000
+      },
+      {
+        "grade": 2,
+        "monthly": 2147600
+      },
+      {
+        "grade": 3,
+        "monthly": 2168000
+      },
+      {
+        "grade": 4,
+        "monthly": 2194000
+      },
+      {
+        "grade": 5,
+        "monthly": 2226100
+      },
+      {
+        "grade": 6,
+        "monthly": 2264600
+      },
+      {
+        "grade": 7,
+        "monthly": 2309900
+      },
+      {
+        "grade": 8,
+        "monthly": 2367500
+      },
+      {
+        "grade": 9,
+        "monthly": 2456700
+      },
+      {
+        "grade": 10,
+        "monthly": 2542700
+      },
+      {
+        "grade": 11,
+        "monthly": 2624400
+      },
+      {
+        "grade": 12,
+        "monthly": 2705900
+      },
+      {
+        "grade": 13,
+        "monthly": 2783900
+      },
+      {
+        "grade": 14,
+        "monthly": 2859800
+      },
+      {
+        "grade": 15,
+        "monthly": 2932300
+      },
+      {
+        "grade": 16,
+        "monthly": 3002300
+      },
+      {
+        "grade": 17,
+        "monthly": 3070800
+      },
+      {
+        "grade": 18,
+        "monthly": 3134500
+      },
+      {
+        "grade": 19,
+        "monthly": 3197300
+      },
+      {
+        "grade": 20,
+        "monthly": 3257000
+      },
+      {
+        "grade": 21,
+        "monthly": 3313400
+      },
+      {
+        "grade": 22,
+        "monthly": 3367600
+      },
+      {
+        "grade": 23,
+        "monthly": 3419200
+      },
+      {
+        "grade": 24,
+        "monthly": 3468800
+      },
+      {
+        "grade": 25,
+        "monthly": 3516000
+      },
+      {
+        "grade": 26,
+        "monthly": 3558700
+      },
+      {
+        "grade": 27,
+        "monthly": 3595600
+      },
+      {
+        "grade": 28,
+        "monthly": 3631000
+      },
+      {
+        "grade": 29,
+        "monthly": 3665100
+      },
+      {
+        "grade": 30,
+        "monthly": 3698400
+      },
+      {
+        "grade": 31,
+        "monthly": 3731100
+      }
+    ]
+  }
+}
