@@ -16,8 +16,9 @@ import { IncomeSourcesCard } from './ui/IncomeSourcesCard'
 import { MutualAidCard } from './ui/MutualAidCard'
 import { TaxGuideCard } from './ui/TaxGuideCard'
 import { OpinionCard } from './ui/OpinionCard'
+import { AccountGuideCard } from './ui/AccountGuideCard'
 
-const MAIN_TABS = ['요약', '사적연금', '은퇴 설계', '진단 리포트', '종합 의견', '분리과세 가이드'] as const
+const MAIN_TABS = ['요약', '사적연금', '은퇴 설계', '진단 리포트', '종합 의견', '분리과세 가이드', '계좌 알아보기'] as const
 const SUB_TABS = ['자산 구성', '시뮬레이션 · 스트레스', '보유 현황'] as const
 const RETIRE_SUB_TABS = ['프리셋 설정', '교직원 공제회', '추가 수입원', '시뮬레이터'] as const
 
@@ -151,6 +152,8 @@ export default function App() {
         {tab === 4 && <OpinionCard />}
 
         {tab === 5 && <TaxGuideCard />}
+
+        {tab === 6 && <AccountGuideCard />}
 
         <OnboardingWizard />
 
